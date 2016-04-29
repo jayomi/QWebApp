@@ -7,9 +7,13 @@
 <title>Insert title here</title>
 </head>
 <body>
+<<<<<<< HEAD
 	Form ID: <%= session.getAttribute( "formIndex" ) %>	
 	${segment_labelName}
 	${segmentID}
+=======
+	${segment_labelName}
+>>>>>>> 595348647e7085811f2bc01f113214561359cf67
 	${segment_labelDescription}
 	
 </body>

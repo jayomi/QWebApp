@@ -27,22 +27,30 @@ function deleteTableRow(tableID) {
 	$("#"+tableID).remove();
 	
 }	
+<<<<<<< HEAD
 function deleteTableSegment(){
 	var table = document.getElementById(tableID);
 	var rowCount = table.rows.length;
 	table.deleteRow();
 }
+=======
+>>>>>>> 595348647e7085811f2bc01f113214561359cf67
 </script>
 </head>
 <body>
 	
 	Form Name: ${form_Name}<br>
+<<<<<<< HEAD
 	Form ID: <%= session.getAttribute( "formIndex" ) %>
 	
+=======
+	Form ID: ${form_Id}<br>
+>>>>>>> 595348647e7085811f2bc01f113214561359cf67
 	
 	<table id="mainFormTable" class="table">
 		<thead>Main table</thead>
 		<tbody id="mainFormBody">
+<<<<<<< HEAD
 			
 			<tr  id="datasegment1">
 				<form action="FormSegmentController">
@@ -54,6 +62,18 @@ function deleteTableSegment(){
 				<td><input type="submit" value="Delete" name="deleteSegment"/></td>	
 				
 				</form> 				
+=======
+			<tr id="datasegment1">
+				<td><h3>Hello Allianz</h3></td>
+			</tr>
+			<tr>
+				<form action="FormSegmentController">
+				<td><input id="segmentlabelName" type="text" value="LabelName" name="segmentlabelName"/></td>
+				<td><input id="segmentlabelDescription" type="text" value="LabelDescription" name="segmentlabelDescription"/></td>
+				<td><input type="submit" value="Add" name="addSegment"/></td>
+				<td><input type="button" value="Delete" name="deleteSegment"/></td>	
+				</form>				
+>>>>>>> 595348647e7085811f2bc01f113214561359cf67
 			</tr>
 			<tr id="dataField1">
 				<td><input id="labelName" type="text" value="LabelName" name="labelName"/></td>

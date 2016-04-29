@@ -1,5 +1,6 @@
 package com.allianz.qportalapp.controller;
 
+<<<<<<< HEAD
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -117,5 +118,10 @@ public class FormSegmentImple {
 			}	
 			return response;		
 		}
+=======
+public class FormSegmentImple {
+	
+	
+>>>>>>> 595348647e7085811f2bc01f113214561359cf67
 
 }

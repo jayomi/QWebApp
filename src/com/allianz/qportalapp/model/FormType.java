@@ -18,6 +18,7 @@ public class FormType {
 		this.formName = formName;
 		this.formStatus=formStatus;
 	}
+<<<<<<< HEAD
 	
 	public FormType(int formId,String formName,String formDescription,String department){
 		super();
@@ -26,6 +27,8 @@ public class FormType {
 		this.formDescription=formDescription;
 		this.department=department;
 	}
+=======
+>>>>>>> 595348647e7085811f2bc01f113214561359cf67
 
 	public int getFormId() {
 		return formId;
@@ -50,6 +53,7 @@ public class FormType {
 	public void setFormStatus(String formStatus) {
 		this.formStatus = formStatus;
 	}
+<<<<<<< HEAD
 
 	public String getFormDescription() {
 		return formDescription;
@@ -68,6 +72,8 @@ public class FormType {
 	}
 	
 	
+=======
+>>>>>>> 595348647e7085811f2bc01f113214561359cf67
 	
 	
 }

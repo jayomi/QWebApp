@@ -1,16 +1,24 @@
 package com.allianz.qportalapp.controller;
 
 import java.sql.Connection;
+<<<<<<< HEAD
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
+=======
+import java.sql.SQLException;
+import java.sql.Statement;
+>>>>>>> 595348647e7085811f2bc01f113214561359cf67
 
 import com.allianz.qportalapp.model.FormField;
 import com.allianz.qportalapp.model.FormType;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 595348647e7085811f2bc01f113214561359cf67
 public class FormTypeImpl {
 	
 	FormDBService dbservice=new FormDBService(); 
@@ -46,6 +54,7 @@ public class FormTypeImpl {
 			}
 			//return formType;			
 	 } 
+<<<<<<< HEAD
 	 
 	 public List<FormType> getFormList(){		
 			
@@ -80,4 +89,6 @@ public class FormTypeImpl {
 			return formList;				
 		
 	}
+=======
+>>>>>>> 595348647e7085811f2bc01f113214561359cf67
 }

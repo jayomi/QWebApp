@@ -9,7 +9,10 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+<<<<<<< HEAD
 import javax.servlet.http.HttpSession;
+=======
+>>>>>>> 595348647e7085811f2bc01f113214561359cf67
 
 /**
  * Servlet implementation class FormSegmentController
@@ -31,7 +34,11 @@ public class FormSegmentController extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+<<<<<<< HEAD
 		HttpSession session = request.getSession(true);	
+=======
+		// TODO Auto-generated method stub
+>>>>>>> 595348647e7085811f2bc01f113214561359cf67
 		response.setContentType("text/html");
 		PrintWriter writer=response.getWriter();
 		
@@ -41,6 +48,7 @@ public class FormSegmentController extends HttpServlet {
 		//request.setAttribute("FormLabel", labelName);
 		//writer.write(formName);	
 		String addSegment=request.getParameter("addSegment");
+<<<<<<< HEAD
 		String deleteSegment=request.getParameter("deleteSegment");
 		int segmentID=Integer.parseInt(request.getParameter("segmentID"));
 		Object formID=session.getAttribute( "formIndex" );
@@ -72,6 +80,16 @@ public class FormSegmentController extends HttpServlet {
 			}
 			
 		}
+=======
+		
+		if(addSegment!=null){
+			request.setAttribute("segment_labelName", segmentlabelName);
+			request.setAttribute("segment_labelDescription", segmentlabelDescription);
+			
+			requestDispatcher=request.getRequestDispatcher("second.jsp");
+			requestDispatcher.forward(request, response);	
+		}
+>>>>>>> 595348647e7085811f2bc01f113214561359cf67
 			
 	}
 

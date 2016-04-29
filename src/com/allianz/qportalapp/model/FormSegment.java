@@ -2,6 +2,7 @@ package com.allianz.qportalapp.model;
 
 public class FormSegment {
 	
+<<<<<<< HEAD
 	private int formId;
 	private int segmentId;
 	private String segmentLabel;
@@ -37,6 +38,13 @@ public class FormSegment {
 	public void setFormId(int formId) {
 		this.formId = formId;
 	}
+=======
+	private int segmentId;
+	private String segmentLabel;
+	private String segmentDescription;	
+	//private int order;
+	
+>>>>>>> 595348647e7085811f2bc01f113214561359cf67
 	public int getSegmentId() {
 		return segmentId;
 	}
